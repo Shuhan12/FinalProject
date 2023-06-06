@@ -18,4 +18,8 @@
     .form_context{
         grid-template-columns: 1fr;
     }
+
+    .commodity_context img{
+        height: 40px;
+    }
 }
