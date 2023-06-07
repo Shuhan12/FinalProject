@@ -33,7 +33,6 @@ main {
 .vip_card button {
     width:10%;
     min-width: 100px;
-    display: inline-block; 
     margin:0 10px; 
     height: 35px; 
     line-height:35px;
@@ -49,7 +48,6 @@ main {
 input, select {
     width:60%;
     min-width: 100px;
-    display: inline-block; 
     margin: 10px 10px; 
     height: 35px; 
     font-size: 18px;
@@ -60,6 +58,8 @@ input, select {
     outline: 0;
     font-size: 14px;
     background-color: #eee;
+    color: gray;
+    text-indent: 1em;
 }
 
 #history {
