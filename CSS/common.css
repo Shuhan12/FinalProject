@@ -131,7 +131,7 @@ ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變�
     color: #fff;
 }
 ul.drop-down-menu ul {
-    border: #ccc 1px solid;
+    border-top: #ccc 1px solid;
     position: absolute;
     z-index: 99;
     left: 99999px;

@@ -3,7 +3,7 @@ function head(){
     document.write('<a id="showmenu" onclick="showmenu()"><img src="image/icon/menu.png"></a>');
     document.write('<ul class="drop-down-menu" id="drop-down">');
     document.write('<li><a href="index.html"><img src="image/logo.png" style="height: 30px;"></a></li>');
-    document.write('<li><a href="#">商品介紹</a>');
+    document.write('<li id="long_on"><a href="#">商品介紹</a>');
     document.write('<ul>');
     document.write('<li><a href="product_total.html">商品總覽</a></li>');
     document.write('<li><a href="product_total_namagashi.html">生菓子</a></li>');

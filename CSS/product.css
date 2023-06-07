@@ -10,7 +10,7 @@
 
 /* item的圖文並排 */
 .two_item {
-    grid-template-columns: 30% 5% 50%;
+    grid-template-columns: auto 30% 5% 50% auto;
     justify-content: center;
     align-items: center;
 }
