@@ -4,11 +4,7 @@
     }
     main {
         max-width: 1500px; 
-        /* 以我的螢幕來說是1440px，最大寬度要設多少 */
-        /* 芷綾：1520px */
-        /* 學校：1920px */
-        /* 可以在RWD中設定 */
-        margin: auto;
+        margin: 0px auto;
     }
 }
 
