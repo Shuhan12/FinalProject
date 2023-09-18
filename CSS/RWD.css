@@ -60,7 +60,13 @@
     ul.drop-down-menu ul li {
         text-indent: 2em;
     }
-    #long_on:hover {
+    .long_on {
         padding-bottom: 311px;
+    }
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: none;
+    }
+    #item_menu {
+        display: none;
     }
 }

@@ -4,7 +4,7 @@ function head(){
     document.write('<ul class="drop-down-menu" id="drop-down">');
     document.write('<li><a href="index.html"><img src="image/logo.png" style="height: 30px;"></a></li>');
     document.write('<li id="long_on"><a href="#">商品介紹</a>');
-    document.write('<ul>');
+    document.write('<ul id="item_menu">');
     document.write('<li><a href="product_total.html">商品總覽</a></li>');
     document.write('<li><a href="product_total_namagashi.html">生菓子</a></li>');
     document.write('<li><a href="product_total_manjyu.html">日式饅頭</a></li>');
@@ -67,6 +67,22 @@ function head(){
 
     document.write('<button id="closeX_shop" class="btn_closeX">X</button>');
     document.write('</div>');
+
+    var long_on = document.getElementById('long_on');
+    var item_menu = document.getElementById('item_menu');
+    var class_on = false;
+    long_on.onclick = function(){
+        if(class_on) {
+            long_on.classList.remove('long_on');
+            item_menu.style.display = "none";
+            class_on = false;
+        }
+        else {
+            long_on.classList.add('long_on');
+            item_menu.style.display = "block";
+            class_on = true;
+        }
+    }
 }
 
 

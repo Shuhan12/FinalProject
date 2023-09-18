@@ -41,7 +41,7 @@
     font-size: 20px;
 }
  
-button{
+.btn_item{
     width:25%;
     min-width: 100px;
     display: inline-block; 
